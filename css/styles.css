@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /* 40pixel = 40/16 = 2.5rem*/
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #07689f;
+  background-color: #11999E;
+  text-decoration: none;
+}
+
+p {
+  font-size: 25px;
+}
+
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.TopContainer {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.MiddleContainer {}
+
+.Topcloud {
+  position: absolute;
+  right: 420px;
+  top: 50px;
+}
+
+.bottomcloud {
+  position: absolute;
+  bottom: 300px;
+}
+
+.Profile-picture {
+  border-radius: 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.Computer {
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+}
+
+.Painting {
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  float: right;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+
+.Development {
+  margin-right: 1.875rem;
+  width: 25%;
+  float: left;
+}
+
+.linkedin {
+  font-family: "ubuntu";
+  font-size: 27px;
+  position: relative;
+  top: 12px;
+  background-color: #66BFBF;
+  color: #11999E;
+}
+
+.twitter {
+  font-family: "ubuntu";
+  font-size: 27px;
+  position: relative;
+  top: 12px;
+  background-color: #66BFBF;
+  color: #11999E;
+}
+
+.bottom-container {
+  margin: 0 auto 0 auto;
+  background-color: #66BFBF;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  word-spacing: 90px;
+}
+
+.Copyright {
+  color: #EAF6F6;
+  margin: 0 auto 0 auto;
+  background-color: #66BFBF;
+  padding-bottom: 15px;
+  font-size: 18px;
+  padding-top: 15px;
+}
